@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+// TUGAS PRAKTIKUM DIRUMAH 14/04/2020
+	
+int contohFuction()
+{
+	int l = 15;
+	return l;
+	// variable dihancurkan /dihapus dari alamat memori
+}
+
+int contohFuction2()
+{
+	int i = 40;
+	return i;
+	// variable dihancurkan / dihapus dari alamat memori
+}
+
+int main ()
+{
+	int l = 15;
+	cout << "ini variable lokal dari fungsi utama " << l << endl;
+	cout << "ini variable lokal dari fungsi contohFuction " <<contohFuction();
+	cout << endl;
+	
+	int i = 40;
+	cout << "ini variable lokal dari fungsi kedua " << i << endl;
+	cout << "ini variable lokal dari fungsi contoh fuction2 " <<contohFuction2();
+	cout << endl;
+	
+}
