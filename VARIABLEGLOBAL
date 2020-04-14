@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+// TUGAS PRAKTIKUM DIRUMAH 14/04/2020
+// ini adalah variable global
+
+int m = 90;
+	
+int contohFuction()
+{
+	int m = 50;
+	return m;
+
+}
+
+int e = 70;
+
+int contohFuction2()
+{
+	int e = 40;
+	return e;
+	
+}
+
+int g = 80;
+
+int contohFuction3()
+{
+	int g = 45;
+	return g;
+	
+	
+}
+
+int main ()
+{
+	cout << "ini variable global 1 " << m << endl;
+	cout << "ini variable global dari fungsi contohFuction " <<contohFuction();
+	cout << endl;
+	
+	cout << "ini variable global 2 " << e << endl;
+	cout << "ini variable global dari fungsi contohFuction " <<contohFuction2();
+	cout << endl;
+	
+	cout << "ini variable global 3 " << g << endl;
+	cout << "ini variable global dari fungsi contohFuction " <<contohFuction3();
+	cout << endl;
+	
+}
